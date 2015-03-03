@@ -10,7 +10,11 @@
 
 ## Sketch layer naming convention
 
-Layers that need to be exported should be named according to this convention.
+1. Keep layer names concise and descriptive.  
+2. Use dashes **-** instead of spaces
+3. Use lowercase for layers that will be exported
+
+Layers that need to be exported should be named according to the following convention:
 
 
 Prefix  | Type
@@ -21,13 +25,15 @@ img_	| Image
 
 ## Sketch type styles naming convention
 
+Sketch supports styles, but doesn't allow us to combine them, like CSS. That means we often have to create variants of the same style. Keep all variants consistent.
+
 Use app hierarchy with colons (:) to name styles. Try to adhere to HTML styles. Example:
 
-	Page:		Home
-	Artboard:	Home (iPhone)
+	Function:	Navigation
 	Element:	H2
+	Variant:	Centered
 
-Name of style: `Home:Home (iPhone):H2`
+Name of style: `Nav:H2:Centered`
 
 This will help when exporting CSS; simply replace the colons with the appropriate hierarchy.
 
