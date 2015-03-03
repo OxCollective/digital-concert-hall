@@ -21,6 +21,7 @@ Prefix  | Type
 --------|-------
 ic_		| Icon
 img_	| Image
+btn_	| Button
 
 
 ## Sketch type styles naming convention
