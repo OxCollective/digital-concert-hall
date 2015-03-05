@@ -23,7 +23,6 @@ ic_		| Icon
 img_	| Image
 btn_	| Button
 
-
 ## Sketch type styles naming convention
 
 Sketch supports styles, but doesn't allow us to combine them, like CSS. That means we often have to create variants of the same style. Keep all variants consistent.
@@ -37,6 +36,25 @@ Use app hierarchy with colons (:) to name styles. Try to adhere to HTML styles. 
 Name of style: `Nav:H2:Centered`
 
 This will help when exporting CSS; simply replace the colons with the appropriate hierarchy.
+
+## Sketch Artboard Naming Convention
+
+`Section - Detail (states)`
+
+As the app contains multiple possible **user states**, it's important to include them on the artboard name to avoid confusion. However, we should keep things as minimal as possible to keep it readable within the narrow layer area Sketch provides.
+
+State					|	Short
+--|--
+Signed in				|	Sign
+Not signed in			|	NoSign
+Has ticket				|	Tkt
+Doesn't have ticket		|	NoTkt
+
+States can be combined using a dash.
+
+**Example:** Home screen, no live concerts approaching; user is signed in, but has no ticket.
+
+Artboard name: `Home - No live (Sign-NoTkt)`
 
 
 ## Export settings
