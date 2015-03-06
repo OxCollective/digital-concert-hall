@@ -17,11 +17,13 @@
 Layers that need to be exported should be named according to the following convention:
 
 
-Prefix  | Type
+Prefix  |	Type
 --------|-------
-ic_		| Icon
-img_	| Image
-btn_	| Button
+ic_		|	Icon
+img_	|	Image
+btn_	|	Button
+
+
 
 ## Sketch type styles naming convention
 
@@ -39,22 +41,21 @@ This will help when exporting CSS; simply replace the colons with the appropriat
 
 ## Sketch Artboard Naming Convention
 
-`Section - Detail (states)`
+`Section - Detail (user state - ticket state)`
 
 As the app contains multiple possible **user states**, it's important to include them on the artboard name to avoid confusion. However, we should keep things as minimal as possible to keep it readable within the narrow layer area Sketch provides.
 
 State					|	Short
 --|--
-Signed in				|	Sign
 Not signed in			|	NoSign
+Signed in				|	Sign
 Has ticket				|	Tkt
-Doesn't have ticket		|	NoTkt
 
 States can be combined using a dash.
 
 **Example:** Home screen, no live concerts approaching; user is signed in, but has no ticket.
 
-Artboard name: `Home - No live (Sign-NoTkt)`
+
 
 
 ## Export settings
