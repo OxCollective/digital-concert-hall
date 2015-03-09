@@ -14,7 +14,7 @@
 2. Use dashes **-** instead of spaces
 3. Use lowercase for layers that will be exported
 
-Layers that need to be exported should be named according to the following convention:
+Layers that **need to be exported** should be named according to the following convention:
 
 
 Prefix  |	Type
@@ -22,7 +22,6 @@ Prefix  |	Type
 ic_		|	Icon
 img_	|	Image
 btn_	|	Button
-
 
 
 ## Sketch type styles naming convention
